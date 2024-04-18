@@ -19,6 +19,7 @@ export class CollegeComponent implements OnInit {
     "image": "sheridan_davis.jpg",
     "location": "Ontario, Canada"
   };
+  //final
 
   constructor(private collegeDataService: CollegeDataService) {}
 

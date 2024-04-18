@@ -11,7 +11,7 @@ describe('CollegeComponent', () => {
       declarations: [CollegeComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(CollegeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -21,3 +21,4 @@ describe('CollegeComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+//final
