@@ -1,0 +1,9 @@
+<div class="college-container">
+  <h2>{{ college.name }}</h2>
+  <img [src]="'assets/Images/' + college.image" [alt]="college.name" class="college-image">
+  <p><strong>Type:</strong> {{ college.type }}</p>
+  <p><strong>Established:</strong> {{ college.established }}</p>
+  <p><strong>Location:</strong> {{ college.location }}</p>
+  <p><strong>Full-Time Students:</strong> {{ college.students.fullTime }}</p>
+  <p><strong>Part-Time Students:</strong> {{ college.students.partTime }}</p>
+</div>
