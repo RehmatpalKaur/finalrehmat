@@ -11,7 +11,7 @@ describe('HeaderComponent', () => {
       declarations: [HeaderComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(HeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -21,3 +21,4 @@ describe('HeaderComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+//final
